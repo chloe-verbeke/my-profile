@@ -1,0 +1,103 @@
+body {
+	background-color: #F5E3E7;
+	font-family: Oswald;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 40px
+}
+
+h2 {
+	font-size: 30px
+}
+
+h1, h2 {
+	color: #E6C3C1;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 100;
+}
+
+a {
+	font-family: Oswald;
+	text-decoration: none;
+	transition: color 0.3s
+	font-weight: 600;
+}
+
+
+.container {
+	width: 700px;
+	margin: 50px auto;
+	background-color: #F5E3E7;
+}
+.card-white {
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	text-align: center;
+	margin-top: 30px;
+	background-color: #FAFAFA;
+}
+.img-circle {
+	border-radius: 50%
+}
+.button-blue {
+	background-color: black;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+
+}
+.button-blue:hover {
+	background-color: #E6C3C1;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+.list-inline i {
+	color: black;
+	font-size: 35px;
+}
+.list-inline i:hover {
+	color: #E6C3C1;
+}
+#intro p {
+	margin-bottom: 40px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
